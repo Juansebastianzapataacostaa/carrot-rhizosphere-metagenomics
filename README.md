@@ -2,7 +2,7 @@
 
 End-to-end HPC-ready bioinformatic pipeline for profiling bacterial taxonomic diversity and metabolic functions (specifically Carbon and Nitrogen cycles) in *Daucus carota* L. rhizosphere soils under distinct agricultural management systems. Processes shotgun metagenomic datasets from public SRA repositories, tracking shifts in community structures and reconstructing functional enzyme abundance profiles.
 
-![Experimental Design](experimental_design.png)
+![Experimental Design](images/experimental_design.png)
 
 **Figure 1. Study design and sampling.** In A, the experimental fieldwork layout in Gauteng Province, South Africa, showcasing rhizosphere soil collection zones at a depth of 0–15 cm, exactly 50 days post-sowing. B highlights the comparison strategy between continuous intensive monoculture, crop rotation footprints, and pristine native bulk soils.
 
@@ -84,7 +84,7 @@ Executed inside the `sh_utilizados/` subdirectory on the cluster using dedicated
 | `code/*.xml / *.slurm` | Bash / SLURM | High-performance computing workflows running heavy assemblies, structural gene calls, and alignments. |
 | `code/*.py` | Python 3 | Data parsing processors converting multi-gigabyte database text files into relational abundance matrices. |
 
-![PCoA Results](results_pcoa.png)
+![PCoA Results](images/results_pcoa.png)
 
 **Figure 2. Matrix transformation and normalization workflow.** The pipeline converts raw taxonomic and functional operational tables into highly filtered datasets: A) Unprocessed family-level reads containing low-count ambient variants. B) Target normalization where reads are scaled by total library size to isolate major biological shifts, highlighted in yellow. C) Clean functional/taxonomic core-community matrix acting as the exact filtered background input for robust multivariate statistical models.
 

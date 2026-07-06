@@ -12,7 +12,7 @@ This repository contains the high-performance computing cluster batch scripts (S
 
 ## Pipeline Overview
 
-                 ´´Raw Sequencing FastQ Reads (SRA)
+                 Raw Sequencing FastQ Reads (SRA)
                                 │
                                 ▼
                     sh_utilizados/Q_*.sh [SLURM]
@@ -49,7 +49,7 @@ This repository contains the high-performance computing cluster batch scripts (S
          └──────────────────────────────────────────────┘
                                 │
                                 ▼
-             Filtered Data Frames Ready for R Workspace´´
+             Filtered Data Frames Ready for R Workspace
 
 ## 🧬 Script Execution Sequence
 

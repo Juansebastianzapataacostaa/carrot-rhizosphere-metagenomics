@@ -2,6 +2,8 @@
 
 End-to-end HPC-ready bioinformatic pipeline for profiling bacterial taxonomic diversity and metabolic functions (specifically Carbon and Nitrogen cycles) in *Daucus carota* L. rhizosphere soils under distinct agricultural management systems. Processes shotgun metagenomic datasets from public SRA repositories, tracking shifts in community structures and reconstructing functional enzyme abundance profiles.
 
+![Experimental Design](images/experimental_design.png)
+
 **Figure 1. Study design and sampling.** In A, the experimental fieldwork layout in Gauteng Province, South Africa, showcasing rhizosphere soil collection zones at a depth of 0–15 cm, exactly 50 days post-sowing. B highlights the comparison strategy between continuous intensive monoculture, crop rotation footprints, and pristine native bulk soils.
 
 ## Background

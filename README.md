@@ -84,6 +84,8 @@ Executed inside the `sh_utilizados/` subdirectory on the cluster using dedicated
 | `code/*.xml / *.slurm` | Bash / SLURM | High-performance computing workflows running heavy assemblies, structural gene calls, and alignments. |
 | `code/*.py` | Python 3 | Data parsing processors converting multi-gigabyte database text files into relational abundance matrices. |
 
+![PCoA Results](results_pcoa.png)
+
 **Figure 2. Matrix transformation and normalization workflow.** The pipeline converts raw taxonomic and functional operational tables into highly filtered datasets: A) Unprocessed family-level reads containing low-count ambient variants. B) Target normalization where reads are scaled by total library size to isolate major biological shifts, highlighted in yellow. C) Clean functional/taxonomic core-community matrix acting as the exact filtered background input for robust multivariate statistical models.
 
 ## Experimental Context

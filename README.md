@@ -58,7 +58,7 @@ This repository contains the high-performance computing cluster batch scripts (S
 The pipeline steps visible in the environment directories (**image_ec1581.png** and **image_ec15a3.png**) follow a strict chronological dependency order:
 
 ### 1. Quality Control & Quality Filtering
-Executed inside the `sh_utilizados/` subdirectory on the cluster using dedicated scripts per treatment block (`Q_BS.sh`, `Q_MCR.sh`, `Q_SCR.sh`). Clean datasets are validated using corresponding `fastqc_*_clean.sh` scripts.
+Executed inside the `Quality/` subdirectory on the cluster using dedicated scripts per treatment block (`Q_BS.sh`, `Q_MCR.sh`, `Q_SCR.sh`). Clean datasets are validated using corresponding `fastqc_*_clean.sh` scripts.
 
 ### 2. Taxonomic Analysis
 * `1.Taxonomy`: Maps clean reads using Kraken2 against reference k-mer databases.
@@ -80,8 +80,8 @@ Executed inside the `sh_utilizados/` subdirectory on the cluster using dedicated
 
 | File/Directory | Runtime Engine | Function |
 | :--- | :--- | :--- |
-| `code/sh_utilizados/` | Bash / SLURM | Handles parallel raw-read data cleaning operations grouped by biological field management. |
-| `code/*.xml / *.slurm` | Bash / SLURM | High-performance computing workflows running heavy assemblies, structural gene calls, and alignments. |
+| `code/Quality/` | Bash / SLURM | Handles parallel raw-read data cleaning operations grouped by biological field management. |
+| `code/HPC / *.slurm` | Bash / SLURM | High-performance computing workflows running heavy assemblies, structural gene calls, and alignments. |
 | `code/*.py` | Python 3 | Data parsing processors converting multi-gigabyte database text files into relational abundance matrices. |
 
 ![PCoA Results](images/results_pcoa.png)

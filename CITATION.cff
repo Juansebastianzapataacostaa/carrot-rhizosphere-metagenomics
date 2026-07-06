@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this pipeline, please cite it as below."
+authors:
+  - family-names: "Zapata Acosta"
+    given-names: "Juan Sebastian"
+  - family-names: "Cabrera Jojoa"
+    given-names: "Angela Carolina"
+title: "Carrot Rhizosphere Metagenomics Pipeline"
+version: 1.0.0
+date-released: 2026-07-06
+url: "https://github.com/Juansebastianzapataacostaa/carrot-rhizosphere-metagenomics"
